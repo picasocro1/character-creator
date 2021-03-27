@@ -10,6 +10,7 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  overflow-x: auto;
 }
 
 .title {
@@ -24,3 +25,13 @@
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
 }
+
+@media (max-width: 50em) {
+  .controlPane {
+    display: inline-block;
+    width: 90vw;
+    margin-right: 32px;
+    margin-bottom: 0;
+  }
+}
+
